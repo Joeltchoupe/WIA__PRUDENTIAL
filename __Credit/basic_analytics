@@ -1,0 +1,43 @@
+Risk formalisation:
+    the components of the risk of credit are as follows:
+    
+• Default: event by which the borrower does not honor a fixed deadline, it is a "
+credit accident”;
+• Exposure at the date of default: this is the amount for which the bank is at risk and which
+includes the outstanding capital;
+• Loss given default: this corresponds to the fraction of the exposure that cannot be
+retrieved; it strongly depends on the rate of collection (or recovery) in the event of
+defect, itself linked to the situation of the company, to the legislation and to the presence of possible
+guarantees in favor of the financial creditor;
+• The default horizon, i.e. the future moment when the default may occur.
+
+
+
+The contemporary approach to credit risk makes it possible to specify these components. In
+simplifying, suppose that a bank extends credit to a company. This credit is for an amount
+M repayable at maturity t. It generates an interest rate i.
+If there is no default, at maturity (t) the value of this credit is:
+Vt = M x (1 + i) t x R
+In the event of default at this time, the bank only "recovers" a fraction R of the loan,
+expressing the recovery rate. Then the value of the loan at maturity (t) is:
+Vt = M x (1 + i) t x R
+At time 0, when the contract is signed, the probability of default at time t and the rate of
+recovery R in case of default are uncertain (random). We call p the probability of default
+at time t, its value is between 0 (no fault) and 1 (fault).
+As a result, the value of the contract at maturity is:
+Vt = M x (1 + i) t x [1 - p x (1 - R)]
+This simplified approach shows that credit risk depends on:
+• The probability of default: (EDF) or (PD) probability of default;
+• Exposure to default: (EAD) Exposure at default, maximum loss in the event of default;
+• Loss given default: (LGD) loss given default, equal to 1 minus the recovery rate
+1 - R.
+Indeed, the expected loss on a credit (EL) expected loss is equal to:
+EL = EAD x PD x LGD4
+The expected loss on a credit is a random variable which, associated with the uncertainty on
+the default horizon, constitutes the credit risk. Default (of payment) generally corresponds
+to an objective and measurable event by the financial creditor: the non-keeping of a commitment of
+credit, the borrower finding himself unable to honor a due date of his financial debt.
+However, the defect can take on a broader meaning as the violation of a
+covenant, debt restructuring or even a significant downgrading of a company's rating.
+Failure to pay, in the strict sense, is a confidential event known only to the debtors and
+creditors.
